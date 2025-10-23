@@ -74,3 +74,16 @@ Se entrenó un modelo de regresión lineal utilizando las variables más relevan
 * Las variables derivadas como HabitacionesPorHogar y PersonasPorHogar aportan información más clara que los totales brutos.
 * El modelo de regresión lineal es útil para predecir precios con un nivel razonable de precisión, aunque no captura todas las variaciones del mercado (R² ≈ 0.63).
 * Futuras mejoras podrían incluir modelos más complejos (árboles de decisión, random forest, o redes neuronales) y más variables externas (por ejemplo, cercanía a escuelas, transporte, zonas comerciales).
+
+---
+
+### 6. Tecnologías Implementadas
+
+| Tecnología / Librería      | Uso en el proyecto                                                                                                                            |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Python**                 | Lenguaje principal para manipulación de datos, análisis y modelado.                                                                           |
+| **Pandas**                 | Carga, limpieza y transformación del dataset; creación de nuevas columnas derivadas.                                                          |
+| **NumPy**                  | Operaciones numéricas, cálculos de errores y manipulación de arreglos.                                                                        |
+| **Matplotlib**             | Visualización de datos: gráficos de barras, mapas de calor y comparación de precios reales vs. predichos.                                     |
+| **Scikit-learn (sklearn)** | Entrenamiento y evaluación del modelo de regresión lineal; métricas de desempeño (MAE, RMSE, R²) y división de datos en entrenamiento/prueba. |
+| **Google Colab**           | Entorno de ejecución en la nube para facilitar el desarrollo, visualización y reproducibilidad del proyecto.                                  |
